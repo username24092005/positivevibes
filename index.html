@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Positive Vibes Sfax</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <style>
+    /* Set font family */
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    /* Set background and text colors */
+    body {
+      background-color: #F2F2F2;
+      color: #333333;
+    }
+
+    /* Set header styles */
+    header {
+      background-color: #FFFFFF;
+      color: #00A3E0;
+      padding: 20px;
+      text-align: center;
+      margin-bottom: 40px;
+      box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    }
+
+    /* Set main styles */
+    main {
+      background-color: #FFFFFF;
+      color: #333333;
+      padding: 40px;
+      text-align: justify;
+      box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    }
+
+    /* Set link styles */
+    a {
+      color: #00A3E0;
+      text-decoration: none;
+      transition: color 0.2s ease-in-out;
+    }
+
+    a:hover {
+      color: #48B54A;
+    }
+
+    /* Set footer styles */
+    footer {
+      background-color: #48B54A;
+      color: #FFFFFF;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Set Facebook icon styles */
+    .facebook-icon {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+    }
+
+    /* Set media query for smaller screens */
+    @media screen and (max-width: 768px) {
+      main {
+        padding: 20px;
+      }
+    }
+    
+    /* Set button styles */
+    .button {
+  display: block;
+  margin: auto;
+  padding: 20px 40px;
+  background-color: #48B54A;
+  color: #FFFFFF;
+  border-radius: 4px;
+  transition: background-color 0.2s ease-in-out;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.button:hover {
+  background-color: #00A3E0;
+}
+
+.button-meduim {
+  font-size: 18px;
+  padding: 16px 32px;
+}
+
+.modern-btn {
+  display: block;
+  margin: 0 auto; 
+  background-color: #4CAF50; /* Green background color */
+  border: none; /* Remove button border */
+  color: white; /* White text color */
+  padding: 12px 24px; /* Add padding to the button */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make button display as inline-block */
+  font-size: 16px; /* Set font size */
+  border-radius: 4px; /* Add rounded corners */
+  cursor: pointer; /* Add cursor pointer */
+}
+
+.modern-btn:hover {
+  background-color: #3e8e41; /* Darker green background color on hover */
+}
+
+.center-container {
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Set height to 100% of viewport height */
+}
+
+  
+  </style>
+</head>
+<body>
+  <header>
+    <img src="positive-vibes-icon.jpg" alt="Positive Vibes Sfax icon" width="230" height="230">
+    <h1>Positive Vibes Sfax</h1>
+  </header>
+  <main>
+    <p>Welcome to Positive Vibes Sfax. We are a nonprofit organization dedicated to spreading positivity and making a difference in our community.</p>
+    <p>Our mission is to inspire and empower people to live happy, healthy, and fulfilling lives. We believe that everyone has the potential to make a positive impact on the world, and we are committed to helping people discover and cultivate their strengths and talents.</p>
+    <p>Join us in spreading positivity and making a difference in our community.</p>
+    <p>Visit us on <a href="https://www.facebook.com/people/Positive-vibes-sfax/100083253486254/" target="_blank"><img src="facebook-icon.png" alt="Facebook icon" class="facebook-icon"> Facebook</a> to learn more about us.</p>
+    <button class="button">What We Do</button> 
+    <button class="modern-btn" onclick="openPopUp()">Click me to open pop-up</button>
+
+	<script>
+		function openPopUp() {
+			window.open("https://www.example.com", "Pop-up Window", "width=400,height=400");
+		}
+  </script>
+    
+  </main>
+  <footer>
+    <p>&copy; 2023 Positive Vibes Sfax</p>
+  </footer>
+</body>
+</html>
